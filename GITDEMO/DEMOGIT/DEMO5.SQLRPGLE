@@ -2,8 +2,7 @@
 000200240425
 000300211026// This program uses systools.httpgetclob api to request the api.weather.gov alerts
 000400211026// for the requested state. It is a work in progress to demo.
-000401260427// Add a comment for eGit demo
-000402260428// And another one
+000401260429// Changed the the file to DEMOGIT in library DEMOS
 000500240425
 000600240425ctl-opt dftactgrp(*no) actgrp('RDI') option( *srcstmt: *nodebugio: *noxref ) ccsid(*CHAR:37);
 000700211021
@@ -25,7 +24,7 @@
 002300211110  pState char(2);
 002400211110end-pi;
 002500211025
-002600211117/copy demos,demo5inds
+002600260429/copy demogit,demo5inds
 002700211025
 002800211020// Get our program name
 002900211020dcl-ds pgmDS psds qualified;
